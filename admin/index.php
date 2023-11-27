@@ -114,6 +114,9 @@ $result = mysqli_query($connection, $query);
                         <li class="">
                             <a href="payment.php"><i class="fe fe-money"></i> <span>Payment</span></a>
                         </li>
+                        <li class="">
+                            <a href="con_message.php"><i class="fe fe-messanger"></i> <span>Contect message</span></a>
+                        </li>
                     </ul>
                 </div>
             </div>

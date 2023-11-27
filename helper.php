@@ -64,7 +64,7 @@
                                 </a>
                             </li>
                             <li class="nav-item mx-xl-5 mx-lg-3 my-lg-0 my-3">
-                                <a class="nav-link" href="contact.php">Contact Us</a>
+                                <a class="nav-link" href="postLogin/contact.php">Contact Us</a>
                             </li>
                             <li class="nav-item  mx-lg-3 my-lg-0 my-3">
                                 <a class="nav-link" href="contact.php">Translater</a>

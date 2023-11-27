@@ -10,7 +10,7 @@ if (!isset($_SESSION["username"])) {
 <?php
 include('../conn.php');
 error_reporting(0);
-$query = "select * from signup where signup_as = 'helper'";
+$query = 'select * from payment_d';
 $result = mysqli_query($connection, $query);
 ?>
 
@@ -68,6 +68,7 @@ $result = mysqli_query($connection, $query);
 
 
             <ul class="nav user-menu">
+
                 <li class="nav-item dropdown has-arrow">
                     <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
                         <span class="user-img"><img class="rounded-circle" src="assets/img/profiles/avatar-01.png" width="31" alt="Seema Sisty"></span>
@@ -103,30 +104,28 @@ $result = mysqli_query($connection, $query);
                         <li class="">
                             <a href="users.php"><i class="fe fe-users"></i> <span>Users</span></a>
                         </li>
-                        <li class="active">
-                            <a href="users.php"><i class="fe fe-users"></i> <span>Helpers</span></a>
+                        <li class="">
+                            <a href="helpers.php"><i class="fe fe-users"></i> <span>Helpers</span></a>
                         </li>
                         <li class="">
                             <a href="payment.php"><i class="fe fe-money"></i> <span>Payment</span></a>
                         </li>
-                        <li class="">
-                            <a href="con_message.php"><i class="fe fe-messanger"></i> <span>Contect message</span></a>
+                        <li class="active">
+                            <a href="payment.php"><i class="fe fe-messanger"></i> <span>Contect message</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-
-
         <div class="page-wrapper">
             <div class="content container-fluid">
                 <div class="page-header">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h3 class="page-title">Helpers</h3>
+                            <h3 class="page-title">Payment</h3>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                                <li class="breadcrumb-item active">Report Helpers</li>
+                                <li class="breadcrumb-item active">Report Helper</li>
                             </ul>
                         </div>
                     </div>
@@ -140,18 +139,10 @@ $result = mysqli_query($connection, $query);
                                     <table class="table table-hover table-center mb-0">
                                         <thead>
                                             <tr>
-                                                <th>Signup as</th>
                                                 <th>Name</th>
                                                 <th>Email</th>
-                                                <th>Phone No.</th>
-                                                <th>DOB</th>
-                                                <th>Gender</th>
-                                                <th>Street</th>
-                                                <th>Landmark</th>
-                                                <th>Country</th>
-                                                <th>City</th>
-                                                <th>State</th>
-                                                <th class="text-end">zip</th>
+                                                <th>Phone NO</th>
+                                                <th class="text-end">upi id </th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -159,18 +150,10 @@ $result = mysqli_query($connection, $query);
                                                 <?php
                                                 while ($row = mysqli_fetch_assoc($result)) {
                                                 ?>
-                                                    <td><?php echo $row['signup_as']; ?></td>
                                                     <td><?php echo $row['f_name']; ?></td>
                                                     <td><?php echo $row['email']; ?></td>
-                                                    <td><?php echo $row['phone']; ?></td>
-                                                    <td><?php echo $row['dob']; ?></td>
-                                                    <td><?php echo $row['gender']; ?></td>
-                                                    <td><?php echo $row['street']; ?></td>
-                                                    <td><?php echo $row['landmark']; ?></td>
-                                                    <td><?php echo $row['country']; ?></td>
-                                                    <td><?php echo $row['city']; ?></td>
-                                                    <td><?php echo $row['state']; ?></td>
-                                                    <td class="text-end"><?php echo $row['zip']; ?></td>
+                                                    <td><?php echo $row['phone_no']; ?></td>
+                                                    <td class="text-end"><?php echo $row['upi']; ?></td>
                                             </tr>
 
                                         <?php
