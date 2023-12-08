@@ -105,40 +105,41 @@ error_reporting(0);
 
 
 <?php
-if (isset($_POST['Register'])) {
+  if (isset($_POST['Register'])) {
 
-  $signup_as = $_POST['signup_as'];
-  $f_name = $_POST['name'];
-  $email  = $_POST['email'];
-  $password  = $_POST['password'];
-  $con_pass = $_POST['conf_pass'];
-  $phone = $_POST['phone_no'];
-  $dob  = $_POST['dob'];
-  $gender = $_POST['gender'];
-  $street = $_POST['street'];
-  $landmark = $_POST['landmark'];
-  $country = $_POST['country'];
-  $city  = $_POST['city'];
-  $state = $_POST['state'];
-  $zip = $_POST['zip'];
+    $signup_as = $_POST['signup_as'];
+    $f_name = $_POST['name'];
+    $email  = $_POST['email'];
+    $password  = $_POST['password'];
+    $con_pass = $_POST['conf_pass'];
+    $phone = $_POST['phone_no'];
+    $dob  = $_POST['dob'];
+    $gender = $_POST['gender'];
+    $street = $_POST['street'];
+    $landmark = $_POST['landmark'];
+    $country = $_POST['country'];
+    $city  = $_POST['city'];
+    $state = $_POST['state'];
+    $zip = $_POST['zip'];
 
-  $result = "SELECT * FROM signup WHERE phone = '$phone' AND password = '$password'";
-  $none = mysqli_query($connection,$result);
-  $no = mysqli_num_rows($none);
-  if($no != 0){
-    echo '<script>alert("User already exist")</script>';
-  }else{
-    if( $password != $con_pass ){
-      echo '<script>alert("Password do not matched")</script>';
+    $result = "SELECT * FROM signup WHERE phone = '$phone' AND password = '$password'";
+    $none = mysqli_query($connection,$result);
+    $no = mysqli_num_rows($none);
+
+    if($no != 0){
+      echo '<script>alert("User already exist")</script>';
     }else{
-      $data = "INSERT INTO signup VALUES('$signup_as' , '$f_name' ,	'$email' ,	'$password' ,	'$con_pass' ,	'$phone' ,	'$dob' ,	'$gender' ,	'$street' ,	'$landmark' ,	'$country' ,	'$city' ,	'$state' ,'$zip')";
-      $query = mysqli_query($connection, $data);
-      if ($data) {
-      echo '<script>alert("Registered Successfully")</script>';
-  }else{
-    echo '<script>alert("Something Went Wrong!!Please Try Later")</script>';
+      if( $password != $con_pass ){
+        echo '<script>alert("Password do not matched")</script>';
+          }else{
+            $data = "INSERT INTO signup VALUES('$signup_as' , '$f_name' ,	'$email' ,	'$password' ,	'$con_pass' ,	'$phone' ,	'$dob' ,	'$gender' ,	'$street' ,	'$landmark' ,	'$country' ,	'$city' ,	'$state' ,'$zip')";
+            $query = mysqli_query($connection, $data);
+            if ($data) {
+            echo '<script>alert("Registered Successfully")</script>';
+          }else{
+          echo '<script>alert("Something Went Wrong!!Please Try Later")</script>';
+        }
+      }
+    }
   }
-}
-  }
-}
- ?>
+?>
