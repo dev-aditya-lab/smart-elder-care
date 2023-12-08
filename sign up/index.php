@@ -1,8 +1,9 @@
 <!-- php database connection -->
-<?php
-include('../conn.php');
-error_reporting(0);
-?>
+  <?php
+    include('../conn.php');
+    error_reporting(0);
+  ?>
+  
 <!-- html code -->
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +20,6 @@ error_reporting(0);
   <section class="container">
     <header>Registration Form</header>
     <form action="#" method="POST" class="form">
-
       <div class="input-box">
         <label>SignUp As</label>
         <div class="select-box">
@@ -30,12 +30,10 @@ error_reporting(0);
           </select>
         </div>
       </div>
-
       <div class="input-box">
         <label>Full Name</label>
         <input type="text" name="name" placeholder="Enter full name" required />
       </div>
-
       <div class="input-box">
         <label>Email Address</label>
         <input type="Email" name="email" placeholder="Enter email address" required />
@@ -98,8 +96,8 @@ error_reporting(0);
     </form>
   </section>
 </body>
-
 </html>
+
 
 <!-- php database connection -->
 
