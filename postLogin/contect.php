@@ -50,7 +50,7 @@
            
 
 
-            <button type="Submit" class="btn" value="Send" name="Send">Send</button>
+            <button type="Submit" class="btn" value="send" name="send">Send</button>
         </form>
     </section>
 </body>
