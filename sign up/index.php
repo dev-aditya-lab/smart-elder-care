@@ -1,5 +1,5 @@
 <!-- php database connection -->
-  <?php
+<?php
     include('../conn.php');
     error_reporting(0);
   ?>
@@ -24,7 +24,7 @@
         <label>SignUp As</label>
         <div class="select-box">
           <select name="signup_as" required>
-            <option value="not_selected" hidden>SignUp As</option>
+            <option value="">Select</option>
             <option value="user">User</option>
             <option value="helper">Helper</option>
           </select>
