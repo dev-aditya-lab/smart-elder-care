@@ -23,7 +23,7 @@ error_reporting(0);
 
             <div class="input-box">
                 <label>phone no</label>
-                <input type="text" name="username" placeholder="Username" required />
+                <input type="text" name="username" placeholder="Username" required autocomplete="off"/>
             </div>
 
             <div class="input-box">

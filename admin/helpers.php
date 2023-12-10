@@ -118,6 +118,7 @@ $result = mysqli_query($connection, $query);
         </div>
 
 
+        
         <div class="page-wrapper">
             <div class="content container-fluid">
                 <div class="page-header">

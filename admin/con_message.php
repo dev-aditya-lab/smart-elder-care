@@ -10,7 +10,7 @@ if (!isset($_SESSION["username"])) {
 <?php
 include('../conn.php');
 error_reporting(0);
-$query = 'select * from payment_d';
+$query = 'select * from contact';
 $result = mysqli_query($connection, $query);
 ?>
 
@@ -142,7 +142,8 @@ $result = mysqli_query($connection, $query);
                                                 <th>Name</th>
                                                 <th>Email</th>
                                                 <th>Phone NO</th>
-                                                <th class="text-end">upi id </th>
+                                                <th>Subject</th>
+                                                <th class="text-end">Message</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -150,10 +151,11 @@ $result = mysqli_query($connection, $query);
                                                 <?php
                                                 while ($row = mysqli_fetch_assoc($result)) {
                                                 ?>
-                                                    <td><?php echo $row['f_name']; ?></td>
+                                                    <td><?php echo $row['name']; ?></td>
                                                     <td><?php echo $row['email']; ?></td>
                                                     <td><?php echo $row['phone_no']; ?></td>
-                                                    <td class="text-end"><?php echo $row['upi']; ?></td>
+                                                    <td><?php echo $row['subject']; ?></td>
+                                                    <td class="text-end"><?php echo $row['message']; ?></td>
                                             </tr>
 
                                         <?php
