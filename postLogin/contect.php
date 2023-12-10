@@ -72,7 +72,7 @@
     $none = mysqli_query($connection,$result);
     $no = mysqli_num_rows($none);
 
-      $data = "INSERT INTO contact VALUES('$f_name' ,	'$email' , '$phone' ,	'$subject' ,	'$message' )";
+      $data = "INSERT INTO contact VALUES('$f_name' , '$email' , '$phone' ,	'$subject' ,	'$message' )";
       $query = mysqli_query($connection, $data);
       if ($data) {
       echo '<script>alert("Message Send Successfully")</script>';
