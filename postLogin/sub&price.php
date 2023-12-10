@@ -67,7 +67,7 @@
                                     <a class="nav-link" href="sub&price.php">Pricing and Subscriptions</a>
                                 </li>
                                 <li class="nav-item mt-lg-0 mt-3 mb-3">
-                                    <a class="nav-link" href="contact.php">Contact Us</a>
+                                    <a class="nav-link" href="contact/contact.php">Contact Us</a>
                                 </li>
                                 <!--  -->
                                 <li class="ml-lg-4 mb-lg-0 mb-4">
