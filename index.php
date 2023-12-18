@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-	<title>Smart Elder Care</title>
+	<title>Elder Bloom care</title>
 	<script>
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -41,7 +41,7 @@
 				<div class="container-fluid">
 					<!-- logo -->
 					<a class="navbar-brand font-weight-bold" href="index.php">
-						Smart Elder Care
+						Elder Bloom care
 					</a>
 					<!-- //logo -->
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -370,7 +370,7 @@
 					<div class="col-lg-3 w3l-footer-logo text-center">
 						<!-- logo -->
 						<a class="navbar-brand font-weight-bold" href="index.php">
-						Smart Elder Care
+						Elder Bloom care
 						</a>
 						<!-- //logo -->
 					</div>
@@ -413,7 +413,7 @@
 				</div>
 				<div class="pt-lg-4 pt-3 text-center">
 					<!-- copyright -->
-					<p class="copy-right-grids mt-lg-1">© 2023 Smart Elder Care | All Rights Reserved | Design by
+					<p class="copy-right-grids mt-lg-1">© 2023 Elder Bloom care | All Rights Reserved | Design by
 						<a href="#" target="_blank">Ishika</a>
 					</p>
 					<!-- //copyright -->

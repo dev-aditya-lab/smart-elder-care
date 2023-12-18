@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <title>Smart Elder Care</title>
+    <title>Elder Bloom care</title>
 
     <script>
         addEventListener("load", function () {
@@ -42,7 +42,7 @@
                 <div class="container-fluid">
                     <!-- logo -->
                     <a class="navbar-brand font-weight-bold" href="index.php">
-                        Smart Elder Care
+                        Elder Bloom care
                     </a>
                     <!-- //logo -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -95,7 +95,7 @@
             <div class="">
                 <div class="left-build-wthree">
                     <h2 class="middle-title-w3 text-dark font-weight-bold">About us!</h2>
-                    <h6 class="mt-5">At Smart Elder Care, we understand the importance of providing the best care and companionship for your aging
+                    <h6 class="mt-5">At Elder Bloom care, we understand the importance of providing the best care and companionship for your aging
                         parents. Our journey began with a simple yet powerful idea: to make it easier for children to support and care for their
                         elderly loved ones.</h6>
                         <h6 class="mt-5">
@@ -169,7 +169,7 @@
                     <h6 class="mt-5">We invite you to join us in our mission to ensure that aging parents receive the support and companionship they deserve.
                     Together, we can make the senior years truly golden.
                     <br>
-                    Thank you for considering Smart Elder Care for your elderly loved ones' care needs. We look forward to serving your
+                    Thank you for considering Elder Bloom care for your elderly loved ones' care needs. We look forward to serving your
                     family with dedication and compassion.</h6>
                 </div>
                 <div class="right-side-img-w3">
@@ -190,7 +190,7 @@
                     <div class="col-lg-3 w3l-footer-logo text-center">
                         <!-- logo -->
                         <a class="navbar-brand font-weight-bold" href="index.php">
-                            Smart Elder Care
+                            Elder Bloom care
                         </a>
                         <!-- //logo -->
                     </div>
@@ -233,7 +233,7 @@
                 </div>
                 <div class="pt-lg-4 pt-3 text-center">
                     <!-- copyright -->
-                    <p class="copy-right-grids mt-lg-1">© 2021 Smart Elder Care | All Rights Reserved | Design by
+                    <p class="copy-right-grids mt-lg-1">© 2021 Elder Bloom care | All Rights Reserved | Design by
                         <a href="#" target="_blank">Ishika </a>
                     </p>
                     <!-- //copyright -->

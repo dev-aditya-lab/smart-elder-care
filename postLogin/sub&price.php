@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <title>Smart Elder Care</title>
+        <title>Elder Bloom care</title>
         
         <script>
             addEventListener("load", function () {
@@ -40,7 +40,7 @@
                     <div class="container-fluid">
                         <!-- logo -->
                         <a class="navbar-brand font-weight-bold" href="index.php">
-                            Smart Elder Care
+                            Elder Bloom care
                         </a>
                         <!-- //logo -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -67,7 +67,7 @@
                                     <a class="nav-link" href="sub&price.php">Pricing and Subscriptions</a>
                                 </li>
                                 <li class="nav-item mt-lg-0 mt-3 mb-3">
-                                    <a class="nav-link" href="contact/contact.php">Contact Us</a>
+                                    <a class="nav-link" href="login/login.php">Contact Us</a>
                                 </li>
                                 <!--  -->
                                 <li class="ml-lg-4 mb-lg-0 mb-4">
@@ -105,15 +105,14 @@
                                 </li>
                                 <li class="pricing-header">
                                     <h4>Monthly</h4>
-                                    <h2><sup>₹</sup>29 <sub>/ Month</sub></h2>
+                                    <h2><sup>₹</sup>5000<sub>/ Month</sub></h2>
                                 </li>
-                                <li>Aditya</li>
-                                <li>Aditya Aditya</li>
-                                <li>Aditya 123</li>
-                                <li>Aditya</li>
-                                <li>Support</li>
+                                <li>Lodging</li>
+                                <li>Fooding</li>
+                                <li>Health</li>
+                                <li>Common Lounge for visitors</li>
                                 <li class="footer">
-                                    <a class="btn btn-theme effect btn-sm" href="#" target="_blank">Get Started</a>
+                                    <a class="btn btn-theme effect btn-sm" href="https://cosmofeed.com/vp/6521a7a1eac7ab001e8653a8" target="_blank">Get Plan</a>
                                 </li>
                             </ul>
                         </div>
@@ -126,16 +125,14 @@
                                     <img src="images/y.png" style="width: 70px;" alt="" id="sub-icon">
                                 </li>
                                 <li class="pricing-header">
-                                    <h4>Yearly</h4>
-                                    <h2><sup>₹</sup>129 <sub>/ Year</sub></h2>
+                                    <h4>Add ON</h4>
+                                    <h2><sup>₹</sup>+1000<sub>/facilities</sub></h2>
                                 </li>
-                                <li>Aditya</li>
-                                <li>Aditya Aditya</li>
-                                <li>Aditya 123</li>
-                                <li>Aditya</li>
-                                <li>Support</li>
+                                <li>Basic facilities</li>
+                                <li> attached bathroom <li>
+                                <li>more..</li>
                                 <li class="footer">
-                                    <a class="btn btn-theme effect btn-sm" href="#" target="_blank">Get Started</a>
+                                    <a class="btn btn-theme effect btn-sm" href="https://docs.google.com/forms/d/e/1FAIpQLSe4xnMB3mUd2fik-75TaRuEtbg0S-eOg7mBxIk09KVNc-UnJA/viewform?usp=sf_link" target="_blank">Add on</a>
                                 </li>
                             </ul>
                         </div>
@@ -153,7 +150,7 @@
                         <div class="col-lg-3 w3l-footer-logo text-center">
                             <!-- logo -->
                             <a class="navbar-brand font-weight-bold" href="index.php">
-                                Smart Elder Care
+                                Elder Bloom care
                             </a>
                             <!-- //logo -->
                         </div>
@@ -196,7 +193,7 @@
                     </div>
                     <div class="pt-lg-4 pt-3 text-center">
                         <!-- copyright -->
-                        <p class="copy-right-grids mt-lg-1">© 2021 Smart Elder Care | All Rights Reserved | Design by
+                        <p class="copy-right-grids mt-lg-1">© 2021 Elder Bloom care | All Rights Reserved | Design by
                             <a href="#" target="_blank">Ishika </a>
                         </p>
                         <!-- //copyright -->

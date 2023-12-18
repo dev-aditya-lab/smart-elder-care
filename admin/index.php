@@ -83,7 +83,7 @@ $result = mysqli_query($connection, $query);
                                     class="avatar-img rounded-circle">
                             </div>
                             <div class="user-text">
-                                <h6>Smart Elder Care</h6>
+                                <h6>Elder Bloom care</h6>
                                 <p class="text-muted mb-0">Administrator</p>
                             </div>
                         </div>
